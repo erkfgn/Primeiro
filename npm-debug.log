@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 verbose config Skipping project config: /home/aluno/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly rollbackFailedOptional Starting
+9 silly rollbackFailedOptional Finishing
+10 silly runTopLevelLifecycles Starting
+11 silly runTopLevelLifecycles Finishing
+12 silly install printInstalled
+13 verbose stack Error: EACCES: permission denied, stat '/home/aluno/node_modules/express'
+13 verbose stack     at Error (native)
+14 verbose cwd /home/aluno/Área de Trabalho/Primeiro
+15 error Linux 4.4.0-121-generic
+16 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+17 error node v4.2.6
+18 error npm  v3.5.2
+19 error path /home/aluno/node_modules/express
+20 error code EACCES
+21 error errno -13
+22 error syscall stat
+23 error Error: EACCES: permission denied, stat '/home/aluno/node_modules/express'
+23 error     at Error (native)
+23 error  { [Error: EACCES: permission denied, stat '/home/aluno/node_modules/express']
+23 error   errno: -13,
+23 error   code: 'EACCES',
+23 error   syscall: 'stat',
+23 error   path: '/home/aluno/node_modules/express' }
+24 error Please try running this command again as root/Administrator.
+25 verbose exit [ -13, true ]
